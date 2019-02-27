@@ -12,7 +12,7 @@ export default (state={}, action) => {
       let newState = delete state[action.payload];
       return newState; //avoiding lodash here
     case 'FETCH_STREAMS':
-      return {...state,..._.mapKeys(action.payload, 'id') }
+      return {...state,..._.mapKeys(action.payload, 'id') } // converting array to obj
     default:
       return state;
   }
