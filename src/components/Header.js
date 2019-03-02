@@ -7,12 +7,10 @@ const Header = () => {
   return (
     <div className="ui secondary pointing menu">
       <Link to="/" className="item">
+        <i class="big film icon"></i>
         Streamy
       </Link>
       <div className="right menu">
-        <Link to="/" className="item">
-          All streams
-        </Link>
         <GoogleAuth />
       </div>
     </div>
@@ -20,3 +18,8 @@ const Header = () => {
 };
 
 export default Header;
+
+
+//<Link to="/" className="item">
+  //All streams
+//</Link>
