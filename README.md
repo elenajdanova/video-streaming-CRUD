@@ -1,6 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is simplified video streaming project created with React and Redux for learning purposes.
+It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## How To Use
 
 In the project directory, you can run:
 
